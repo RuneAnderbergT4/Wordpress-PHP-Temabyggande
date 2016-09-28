@@ -3,6 +3,12 @@
 	<div class="row">
 		<div class="col-sm-12">
 
+		
+		<h1>Title</h1>
+<?php the_title(); ?>
+
+<h1>Content</h1>
+<?php the_content(); ?>
 			<?php 
 				$args =  array( 
 					'post_type' => 'my-custom-post',
